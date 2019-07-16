@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  &__logo {
+    width: 172px;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-right: 3rem;
+    }
+    &:last-child {
+      background-color: #7d5fe5;
+    }
+  }
+
+  &__link {
+    color: #fff;
+  }
+}

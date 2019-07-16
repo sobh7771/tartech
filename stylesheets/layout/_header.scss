@@ -1,0 +1,30 @@
+.header {
+  height: 100vh;
+  background-image: url('../Assets/Path 96.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &__content {
+  }
+
+  &__img-container {
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__text-box {
+    display: flex;
+    text-align: right;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  &__proposal {
+    width: 80%;
+    float: right;
+  }
+}

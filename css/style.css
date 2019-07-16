@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Bahij Janna';
+  src: url("../../Assets/Fonts/bahij-janna/Bahij Janna-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bahij Janna';
+  src: url("../../Assets/Fonts/bahij-janna/Bahij  Janna-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Bahij Janna';
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: #f7f8fb;
+  color: rgba(26, 27, 57, 0.5);
+  text-rendering: optimizeLegibility; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+input {
+  font: inherit; }
+
+.heading-primary {
+  font-family: 'Bahij Janna';
+  color: #1a1b39;
+  font-weight: normal; }
+
+.container {
+  width: 114rem;
+  margin: 0 auto; }
+
+.mb-2 {
+  margin-bottom: 2rem; }
+
+.mr-2 {
+  margin-right: 2rem; }
+
+.header {
+  height: 100vh;
+  background-image: url("../Assets/Path 96.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .header__img {
+    width: 100%; }
+  .header__text-box {
+    display: flex;
+    text-align: right;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center; }
+  .header__proposal {
+    width: 80%;
+    float: right; }
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  background: transparent;
+  border: none;
+  cursor: pointer; }
+  .btn--primary {
+    color: #fff;
+    background-image: linear-gradient(180deg, #56e6d1, #38c7d5); }
+  .btn--secondary {
+    background-color: #ffffff;
+    box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1); }
+
+.row {
+  display: flex;
+  justify-content: space-between; }
+
+.col-1-of-2 {
+  width: calc((100% - 4rem) / 2); }
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem; }
+  .navbar__logo {
+    width: 172px; }
+  .navbar__nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center; }
+  .navbar__item:not(:first-child) {
+    margin-right: 3rem; }
+  .navbar__item:last-child {
+    background-color: #7d5fe5; }
+  .navbar__link {
+    color: #fff; }

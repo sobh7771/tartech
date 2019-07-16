@@ -1,0 +1,16 @@
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  &--primary {
+    color: #fff;
+    background-image: linear-gradient(180deg, #56e6d1, #38c7d5);
+  }
+
+  &--secondary {
+    background-color: #ffffff;
+    box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
+  }
+}
