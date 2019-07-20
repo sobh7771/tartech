@@ -1,64 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- main stylesheet -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <title>tarteach</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <!-- navbar -->
-        <nav class="navbar">
-          <img src="./Assets/Group 94.png" alt="" class="navbar__logo" />
-          <ul class="navbar__nav">
-            <li class="navbar__item">
-              <a href="/" class="navbar__link">الرئسية</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/" class="navbar__link">خدماتنا</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/" class="navbar__link">اعمالنا</a>
-            </li>
-            <li class="navbar__item">
-              <a href="/" class="navbar__link">العروض</a>
-            </li>
-            <li class="navbar__item btn">
-              <a href="/" class="navbar__link">تواصل معنا</a>
-            </li>
-          </ul>
-        </nav>
 
-        <!-- header content -->
-        <div class="header__content">
-          <div class="row">
-            <div class="col-1-of-2">
-              <div class="header__img-container">
-                <img src="./Assets/Group 164@2x.png" alt="" class="header__img" />
-              </div>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>tarteach</title>
+</head>
 
-            <div class="col-1-of-2">
-              <div class="header__text-box">
-                <h1 class="heading-primary mb-2">!اطلب تصميم موقعك مجانا</h1>
-              <p class="header__proposal mb-2">الآن مع عرض تار تيك اطلب تصميم موقعك او تطبيقك مجانا لن تقوم بإنفاق أي أموال دون رؤية وتجربة تطبيقك يعمل
+<body>
+  <!-- Loader -->
+  <div class="loader">
+    <div class="squares">
+      <div class="square square-one">&nbsp;</div>
+      <div class="square square-two">&nbsp;</div>
+      <div class="square square-three">&nbsp;</div>
+      <div class="square square-two">&nbsp;</div>
+      <div class="square square-three">&nbsp;</div>
+      <div class="square square-four">&nbsp;</div>
+      <div class="square square-three">&nbsp;</div>
+      <div class="square square-four">&nbsp;</div>
+      <div class="square square-five">&nbsp;</div>
+    </div>
+  </div>
+
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <!-- navbar -->
+      <nav class="navbar">
+        <img src="./Assets/Group 94.png" alt="" class="navbar__logo" />
+        <ul class="navbar__nav">
+          <li class="navbar__item">
+            <a href="/" class="navbar__link">الرئسية</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__link">خدماتنا</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__link">اعمالنا</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__link">العروض</a>
+          </li>
+          <li class="navbar__item btn">
+            <a href="/" class="navbar__link">تواصل معنا</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- header content -->
+      <div class="header__content">
+        <div class="row">
+
+          <div class="col-1-of-2">
+            <div class="header__text-box">
+              <h2 class="heading-secondary mb-2">!اطلب تصميم موقعك مجانا</h2>
+              <p class="header__proposal mb-2">الآن مع عرض تار تيك اطلب تصميم موقعك او تطبيقك مجانا لن تقوم بإنفاق أي
+                أموال دون رؤية وتجربة تطبيقك يعمل
               </p>
               <div class="btns">
                 <input class="btn btn--secondary mr-2" type="button" value="اعرف اكثر عن العرض">
                 <input class="btn btn--primary" type="button" value="اطلب تصميمك">
               </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="header__img-box">
+              <img src="./Assets/Group 164@2x.png" alt="" class="header__img" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </header>
+
+  <!-- main content -->
+  <main>
+
+    <!-- section services -->
+    <section>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-1-of-2 align-rigth">
+            <h2 class="heading-secondary mb-2">لماذا تختار تار تيك؟</h2>
+            <p class="text-long">
+              لدينا فريق كامل يعمل على بناء منتجك. من بداية مرحلة جمع البيانات عن المشروع وتحليلها الى مرحلة تسليم
+              المشروع
+            </p>
+          </div>
+
+          <div class="col-1-of-2 align-rigth">
+            <div class="services">
+
+              <div class="service">
+                <div class="icon-box">
+                  <img src="./Assets/Group 263.png" alt="ux" class="icon">
+                </div>
+                <h3 class="heading-tertiary mb-2">تصميم تجربة المستخدم</h3>
+                <p class="text-short">
+                  نبدأ بجمع البيانات اللازمة وتحليلها ويقوم فريقنا بتصميم افضل تجربة مستخدم لمشروعك
+                </p>
               </div>
+
+              <div class="service">
+                <div class="icon-box">
+                  <img src="./Assets/Group 264.png" alt="ux" class="icon">
+                </div>
+                <h3 class="heading-tertiary heading-tertiary--2 mb-2">تطوير مواقع الويب</h3>
+                <p class="text-short">نأخذ تصميم تجربة المستخدم الى المرحلة التالية وتطويرها الى تجربة ويب باستخدام احدث
+                  تقنيات التطوير</p>
+              </div>
+
+              <div class="service">
+                <div class="icon-box">
+                  <img src="./Assets/Group 265.png" alt="ux" class="icon">
+                </div>
+                <h3 class="heading-tertiary heading-tertiary--3 mb-2">تطوير تطبيقات الويب</h3>
+                <p class="text-short">نقوم بإنشاء تطبيقات الويب لمساعدتك بالوصول لأكبر عدد من عملائك وحل مشكلة تعدد
+                  المنصات</p>
+              </div>
+
+              <div class="service">
+                <div class="icon-box">
+                  <img src="./Assets/Group 266.png" alt="ux" class="icon">
+                </div>
+                <h3 class="heading-tertiary heading-tertiary--4 mb-2">تطوير تطبيقات الموبايل</h3>
+                <p class="text-short">نقوم بتصميم تطبيقات الاندرويد والايفون باستخدام احدث التقنيات</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- section technologies -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-1-of-2  align-rigth">
+            <h2 class="heading-secondary mb-2">في تار تيك نستخدم احدث التقنيات المتاحة</h2>
+            <p class="text-long">في تار تيك نستخدم احدث التقنيات المتاحة في مجال تطوير الويب والموبايل</p>
+          </div>
+
+          <div class="col-1-of-2">
+            <div class="technologies">
+
+              <div class="technology">
+                <div>
+                  <div class="icon-box">
+                    <img src="./Assets/nodejs-icon.png" alt="Nodejs" class="icon">
+                  </div>
+                  <p class="technology__header">Node.js</p>
+                </div>
+              </div>
+
+              <div class="technology">
+                <div>
+                  <div class="icon-box">
+                    <img src="./Assets/React.js_logo-512.png" alt="Reactjs" class="icon">
+                  </div>
+                  <p class="technology__header">React.js</p>
+                </div>
+              </div>
+
+              <div class="technology">
+                <div>
+                  <div class="icon-box">
+                    <img src="./Assets/React.js_logo-1.png" alt="React Native" class="icon">
+                  </div>
+                  <p class="technology__header">React Native</p>
+                </div>
+              </div>
+
+              <div class="technology">
+                <div>
+                  <div class="icon-box">
+                    <img src="./Assets/40430921-73d53922-5e63-11e8-8dcd-1662136c3212.png" alt="Nodejs" class="icon">
+                  </div>
+                  <p class="technology__header">MongoDB</p>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
-    </header>
-  </body>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
 </html>

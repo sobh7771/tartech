@@ -1,3 +1,112 @@
-// -----------------------------------------------------------------------------
-// This file contains styles that are specific to the home page.
-// -----------------------------------------------------------------------------
+.services,
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.services {
+}
+
+.service,
+.technology {
+  width: calc((100% - 2rem) / 2);
+}
+
+.service {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &:nth-child(1) {
+    margin-bottom: 3rem;
+  }
+
+  &:nth-child(2) {
+    margin-bottom: 3rem;
+  }
+}
+
+.service .icon-box {
+  float: right;
+  width: 15rem;
+  margin: -43px;
+  height: 15rem;
+}
+.service .icon {
+  width: 100%;
+}
+
+.technology {
+  &:nth-child(1) {
+    margin-bottom: 2.9rem;
+    .icon-box {
+      // padding-right: 1rem;
+      // padding: 2.4rem 0;
+      width: 40px;
+    }
+    .icon {
+      // padding-right: 1rem;
+      // padding: 2.4rem 0;
+      width: 55%;
+    }
+    > div {
+      margin-right: auto;
+      transform: scale(1.2);
+    }
+  }
+
+  &:nth-child(2) {
+    margin-bottom: 2.9rem;
+    > div {
+      margin-left: auto;
+      transform: scale(0.9);
+    }
+  }
+
+  &:nth-child(3) {
+    > div {
+      margin-right: auto;
+      transform: scale(0.7);
+    }
+  }
+
+  &:nth-child(4) {
+    > div {
+      margin-left: auto;
+      transform: scale(1.2);
+    }
+  }
+
+  > div {
+    width: max-content;
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0rem 1rem;
+  }
+
+  &__header {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: #1a1b39;
+    border-left: 1px solid #cbd6f5;
+    padding: 1.5rem 0;
+    padding-left: 1rem;
+  }
+}
+
+.technology .icon-box {
+  // padding-right: 1rem;
+  // padding: 2.4rem 0;
+  width: 50px;
+}
+
+.technology .icon {
+  width: 70%;
+  display: block;
+}

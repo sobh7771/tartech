@@ -3,9 +3,21 @@
   margin: 0 auto;
 }
 .mb-2 {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
 }
 
 .mr-2 {
-  margin-right: 2rem;
+  margin-right: 2rem !important;
+}
+
+.align-rigth {
+  text-align: right !important;
+}
+
+// JS Hooks
+.hide-loader {
+  position: fixed;
+  top: -100% !important;
+  transform: translateY(-50%);
+  display: none;
 }

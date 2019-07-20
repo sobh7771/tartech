@@ -20,7 +20,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   background-color: #f7f8fb;
-  color: rgba(26, 27, 57, 0.5);
+  color: #9c98b4;
   text-rendering: optimizeLegibility;
 }
 
@@ -32,6 +32,12 @@ a {
   text-decoration: none;
 }
 
-input {
+input,
+textarea,
+a {
   font: inherit;
+}
+
+section {
+  padding: 10rem 0;
 }

@@ -10,7 +10,8 @@
 @import 'layout/header', 'layout/footer';
 
 // 5. Components
-@import 'components/button', 'components/grid', 'components/nav';
+@import 'components/button', 'components/grid', 'components/nav',
+  'components/loader';
 
 // 6. Page-specific styles
 @import 'pages/home';
